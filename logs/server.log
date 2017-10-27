@@ -1,0 +1,12 @@
+Server Listening on port : 7520
+Connected to /127.0.0.1:60174
+[ Received ] Hello
+[ Sent ] Hello
+[ Received ] ACK
+[ Sent ] DATA1
+[ Received ] ACK
+[ Received ] DATA2
+[ Sent ] ACK
+[ Received ] Disconnecting
+[ Sent ] ACK
+[ Disconnected ]
