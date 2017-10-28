@@ -16,6 +16,7 @@ SpiralsLogTest.py is a framework used to test an application using log file anal
 
 1. We have recorded the logs of the java application called "chat"
 ```
+cd chat
 cat README.md
 ...
 java Client > ../logs/client.log
