@@ -35,7 +35,7 @@ class Application:
             failure,
             total))
         for error in self.errors:
-            myprint("{0}: Expected '{1}' from line n°{2} to the end of file\n".format(
+            myprint("{0}: Expected '{1}' from line n{2} to the end of file\n".format(
                 error["file"],
                 error["args"][0],
                 error["args"][1]))
