@@ -1,6 +1,6 @@
 # SpiralsLogTest
 
-SpiralsLogTest.py is a framework used to test an application with the log file analysis
+SpiralsLogTest.py is a framework used to test an application using log file analysis
 
 ## QuickStart
 
@@ -16,12 +16,13 @@ SpiralsLogTest.py is a framework used to test an application with the log file a
 
 1. We have recorded the logs of the java application called "chat"
 ```
+cd chat
 cat README.md
 ...
 java Client > ../logs/client.log
 ```
 
-2. We have injected some noise to the log file `python ./tools/generateNoise.py ./logs/client.log"`
+2. We have injected some noise to the log file `python ./tools/generateNoise.py ./logs/client.log >> ./logs/clientFull.log`
 
 3. We have removed an expected line in ./logs/serverError.log
 
