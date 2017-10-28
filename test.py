@@ -84,7 +84,7 @@ if __name__ == "__main__":
         SpiralsLogTest.LogSuccess = Log.Success
         SpiralsLogTest.LogInfo = Log.Info
         SpiralsLogTest.LogFailure = Log.Failure
-    print("--- Test n°1 ---")
+    print("--- Test n1 ---")
     testSuccess()
-    print("--- Test n°2 ---")
+    print("--- Test n2 ---")
     testFailure()
