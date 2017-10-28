@@ -1,6 +1,6 @@
 # SpiralsLogTest
 
-SpiralsLogTest.py is a framework used to test an application with the log file analysis
+SpiralsLogTest.py is a framework used to test an application using log file analysis
 
 ## QuickStart
 
