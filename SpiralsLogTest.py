@@ -7,8 +7,6 @@ LogInfo = lambda *args : None
 class AssertFailedException(Exception):
     pass
 
-
-
 class Application:
 
     def __init__(self):
@@ -75,4 +73,3 @@ class LogFile(object):
         except FileNotFoundError as e:
             printFail(e)
             raise e
-
