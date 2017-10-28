@@ -1,6 +1,10 @@
 Server Listening on port : 7520
 Connected to /127.0.0.1:60174
 [ Received ] Hello
+[ noise log ]
+[ noise log ]
+[ noise log ]
+[ noise log ]
 [ Sent ] Hello
 [ Received ] ACK
 [ Sent ] DATA1
