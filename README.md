@@ -22,7 +22,7 @@ cat README.md
 java Client > ../logs/client.log
 ```
 
-2. We have injected some noise to the log file `python ./tools/generateNoise.py ./logs/client.log"`
+2. We have injected some noise to the log file `python ./tools/generateNoise.py ./logs/client.log >> ./log/clientFull.log`
 
 3. We have removed an expected line in ./logs/serverError.log
 
