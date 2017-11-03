@@ -5,7 +5,8 @@ Using our framework you can dynamically and semantically parse your log using a 
 ## Quick Start
 
 live  test examples :
-  - [chat application](https://repl.it/Ndgo/2)
+  - Java chat example (below).
+  - [Restaurant mobile App](https://github.com/nsvir/logTest/wiki/Testing-a-mobile-App).
 
 ## Getting Started
 ### Example
@@ -94,21 +95,21 @@ Interactive  | ping/pong  |  a `ping` action that requires a `pong` after a `tim
 ### To Do
 1.  Add `timestamp` handling to the framework, along with `timeout` syntax.
 2. Add a single `Agent` example.
-1. Respect the event/action order between the `Agents`
-1. Pass the equals function : for example `grep`, instead of just `==`.
-2. Add `extract` syntax to the framework, [Examples](https://stackoverflow.com/questions/6260777/python-regex-to-parse-string-and-return-tuple):
+3. Respect the event/action order between the `Agents`
+4. Pass the equals function : for example `grep`, instead of just `==`.
+5. Add `extract` syntax to the framework, [examples](https://stackoverflow.com/questions/6260777/python-regex-to-parse-string-and-return-tuple):
     * Using `map(strip,split) => select`.
     * Using `regex => match => group`.
-5. Pass the `extract` map/filter functions.
-3. Add `Async` functions.
-4. Add multiple `Agent` per `LogFile`.
-5. Add **performance profiling** for each scenario.
-6. Reconstruct the same function that had written the log, ex: `log.debug()`.
-7. Build the test file from the code source, for each agent.
-8. Propose a general log format, that can be parsed directly, ex:`apache`, or:
+6. Pass the `extract` map/filter functions.
+7. Add `Async` functions.
+8. Add multiple `Agent` per `LogFile`.
+9. Add **performance profiling** for each scenario.
+10. Reconstruct the same function that had written the log, ex: `log.debug()`.
+11. Build the test file from the code source, for each agent.
+12. Propose a general log format, that can be parsed directly, ex:`apache`, or:
   * `timestamp` => `Agent` => `Action`/`Event`/`Async` => `Data[]`.
   * One log per function (for automatic code source parsing).
-9. Define p2p specific operations to handle its semantic **As a plugin**. Check several properties for each Agent : `connect`, `disconnect`, `subscribe`, `publish`,`join` and `leave`.
-10. Define Ui/User specific operations **As a plugin**, `press`, `see`,`lock`,`text`.
-10. Report graphic interactions between agents.
-11. Get a snapshot of the system at a given time/operation (Realtime state diagram).
+13. Define p2p specific operations to handle its semantic **As a plugin**. Check several properties for each Agent : `connect`, `disconnect`, `subscribe`, `publish`,`join` and `leave`.
+14. Define Ui/User specific operations **As a plugin**, `press`, `see`,`lock`,`text`.
+15. Report graphic interactions between agents.
+16. Get a snapshot of the system at a given time/operation (Realtime state diagram).
