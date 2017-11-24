@@ -113,3 +113,8 @@ Interactive  | ping/pong  |  a `ping` action that requires a `pong` after a `tim
 14. Define Ui/User specific operations **As a plugin**, `press`, `see`,`lock`,`text`.
 15. Report graphic interactions between agents.
 16. Get a snapshot of the system at a given time/operation (Realtime state diagram).
+
+
+## Run tools
+
+`python tools/extractLog.py ./log/log100/N10320100.log 1>parsed 2>not_parsed`
