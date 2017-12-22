@@ -30,10 +30,10 @@ public class Client extends Thread {
 
     public void run() {
         try {
-            System.out.println("Connecting to " + serverName + " on port " + PORT + "...");
+            Utils.logClient("Connecting to " + serverName + " on port " + PORT + "...");
             server = new Socket(serverName, PORT);
 
-            System.out.println("Connected to " + server.getRemoteSocketAddress());
+            Utils.logClient("Connected to " + server.getRemoteSocketAddress());
             input = new BufferedReader(new InputStreamReader(server.getInputStream()));
             output = new PrintWriter(server.getOutputStream(), true);
             br = new BufferedReader(new InputStreamReader(System.in));
@@ -53,19 +53,19 @@ public class Client extends Thread {
             send("Disconnecting");
             receiveExpected("ACK");
 
-            System.out.println("[ Disconnected ]");
+            Utils.logClient("[ Disconnected ]");
 
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            Utils.logClient(e.getMessage());
         }
     }
 
     public void send(String msg) {
         try {
             output.println(msg);
-            System.out.println("[ Sent ] " + msg);
+            Utils.logClient("[ Sent ] " + msg);
         } catch (Exception ex) {
-            System.out.println("[ error ] could not send msg");
+            Utils.logClient("[ error ] could not send msg");
         }
     }
 
@@ -77,7 +77,7 @@ public class Client extends Thread {
 
     public String receive() throws Exception {
         String s = input.readLine();
-        System.out.println("[ Received ] " + s);
+        Utils.logClient("[ Received ] " + s);
         return s;
     }
 

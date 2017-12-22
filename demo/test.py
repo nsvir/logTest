@@ -1,6 +1,6 @@
 import sys
-import ../SpiralsLogTest
-from ../SpiralsLogTest import LogFile, Application
+import SpiralsLogTest
+from SpiralsLogTest import LogFile, Application
 from tools.fancy import Log
 
 # Application

@@ -1,0 +1,12 @@
+2017.12.22-17.48.49.631 Client Connecting to localhost on port 7520...
+2017.12.22-17.48.49.642 Client Connected to localhost/127.0.0.1:7520
+2017.12.22-17.48.49.643 Client [ Sent ] Hello
+2017.12.22-17.48.49.643 Client [ Received ] Hello
+2017.12.22-17.48.49.644 Client [ Sent ] ACK
+2017.12.22-17.48.49.644 Client [ Received ] DATA1
+2017.12.22-17.48.49.645 Client [ Sent ] ACK
+2017.12.22-17.48.49.645 Client [ Sent ] DATA2
+2017.12.22-17.48.49.687 Client [ Received ] ACK
+2017.12.22-17.48.49.688 Client [ Sent ] Disconnecting
+2017.12.22-17.48.49.689 Client [ Received ] ACK
+2017.12.22-17.48.49.690 Client [ Disconnected ]
