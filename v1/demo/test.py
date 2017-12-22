@@ -1,6 +1,6 @@
 import sys
-from SpiralsLogTest import Application
-from LogAgent import LogAgent
+import SpiralsLogTest
+from SpiralsLogTest import LogFile, Application
 from tools.fancy import Log
 
 # Application
@@ -12,7 +12,7 @@ from tools.fancy import Log
 #    Log
 
 # This class defines the expected Logs from Actions
-class ChatLogFile(LogAgent):
+class ChatLogFile(LogFile):
 
     def received(self, message):
         self.expect("[ Received ] " + message)
@@ -27,10 +27,10 @@ class ChatLogFile(LogAgent):
 # Application defines the expected Actions from Behaviors
 class Chat(Application):
 
-    def __init__(self):
+    def __init__(self, clientLog, serverLog):
         super().__init__()
-        self.client = ChatLogFile("Client")
-        self.server = ChatLogFile("Server")
+        self.client = ChatLogFile(clientLog)
+        self.server = ChatLogFile(serverLog)
         self.register(self.client)
         self.register(self.server)
 
@@ -61,7 +61,7 @@ class Chat(Application):
 
 # Testing application sequence of behaviors
 def testSuccess():
-    chat = Chat()
+    chat = Chat("logs/clientFull.log", serverLog = "logs/serverFull.log")
 
     chat.connectClient()
     chat.sendToClient("DATA1")
@@ -70,7 +70,7 @@ def testSuccess():
     chat.verify()
 
 def testFailure():
-    chat = Chat()
+    chat = Chat("logs/clientFull.log", serverLog = "logs/serverError.log")
 
     chat.connectClient()
     chat.sendToClient("DATA1")

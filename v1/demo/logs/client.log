@@ -1,0 +1,12 @@
+Connecting to localhost on port 7520...
+Connected to localhost/127.0.0.1:7520
+[ Sent ] Hello
+[ Received ] Hello
+[ Sent ] ACK
+[ Received ] DATA1
+[ Sent ] ACK
+[ Sent ] DATA2
+[ Received ] ACK
+[ Sent ] Disconnecting
+[ Received ] ACK
+[ Disconnected ]

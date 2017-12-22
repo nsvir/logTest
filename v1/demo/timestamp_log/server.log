@@ -1,0 +1,12 @@
+2017.12.22-17.48.47.210 Server Server Listening on port : 7520
+2017.12.22-17.48.49.642 Server Connected to /127.0.0.1:57002
+2017.12.22-17.48.49.643 Server [ Received ] Hello
+2017.12.22-17.48.49.643 Server [ Sent ] Hello
+2017.12.22-17.48.49.644 Server [ Received ] ACK
+2017.12.22-17.48.49.644 Server [ Sent ] DATA1
+2017.12.22-17.48.49.645 Server [ Received ] ACK
+2017.12.22-17.48.49.687 Server [ Received ] DATA2
+2017.12.22-17.48.49.687 Server [ Sent ] ACK
+2017.12.22-17.48.49.688 Server [ Received ] Disconnecting
+2017.12.22-17.48.49.689 Server [ Sent ] ACK
+2017.12.22-17.48.49.690 Server [ Disconnected ]
