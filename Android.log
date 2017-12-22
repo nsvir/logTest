@@ -1,0 +1,9 @@
+09-04 18:28:02.165 D/LoginActivity( 2255): Login button pressed
+09-04 18:28:02.165 D/LoginActivity( 2255): Retrieved, User:  username: John, password: 11111111
+09-04 18:28:02.165 D/LoginActivity( 2255): Show Progress Bar
+09-04 18:28:02.168 D/Auth( 2255): Authenticate, User: username: John, password: 11111111
+09-04 18:28:02.168 D/Auth( 2255): Send credentials to the server, User: username: John, password: 11111111
+09-04 18:28:05.458 D/Auth( 2255): Received, name : John Matts
+09-04 18:28:05.568 D/Auth( 2255): User is Authenticated, name: John Matts
+09-04 18:28:05.869 D/LoginActivity( 2255): Hide Progress bar
+09-04 18:28:05.869 D/LoginActivity( 2255): Show Welcome back, name: John Matts
