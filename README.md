@@ -21,9 +21,9 @@ if you have already done that just do
 source ./venv/bin/activate
 ```
 
-`deactivate` to live the virtualenv
+`deactivate` to leave the virtualenv
 
-### injecting logs v2 (not required for spirana.lille.inria.fr)
+### injecting logs v2 (not required because already in spirana.lille.inria.fr)
 ```
 python ./demo/tools/logToElastic.py --index=chat_failure ./demo/v2_logs/failure/client.log ./demo/v2_logs/failure/server.log
 python ./demo/tools/logToElastic.py --index=chat_success ./demo/v2_logs/failure/client.log ./demo/v2_logs/success/server.log
