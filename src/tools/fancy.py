@@ -9,13 +9,13 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 def printOk(message):
-    print("{1}{0}{2}".format(
+    print("{1}{0}{2}\n".format(
           message,
           bcolors.OKGREEN,
           bcolors.ENDC), end="")
 
 def printFail(message):
-    print("{1}{0}{2}".format(
+    print("{1}{0}{2}\n".format(
           message,
           bcolors.FAIL,
           bcolors.ENDC), end="")

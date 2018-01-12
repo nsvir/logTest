@@ -1,3 +1,6 @@
+from elasticsearch import Elasticsearch
+from elasticsearch_dsl import Search
+
 from tools.fancy import printOk, printFail
 
 LogFailure = lambda  *args : None
@@ -9,9 +12,18 @@ class AssertFailedException(Exception):
 
 class Application:
 
-    def __init__(self):
+    def __init__(self, elastic=None):
         self.logAgent = []
         self.errors = []
+        self.elastic = elastic
+        if self.elastic is None:
+            self.elastic = {
+                'host': 'spirana.lille.inria.fr',
+                'port': '80',
+                'index': "chat"
+            }
+        self.client = Elasticsearch([self.elastic])
+        self.search = Search(using=self.client, index=self.elastic["index"])
 
     def register(self, logAgent):
         self.logAgent.append(logAgent)
@@ -19,9 +31,9 @@ class Application:
     def verify(self):
         for logAgent in self.logAgent:
             try:
-                logAgent.verify()
+                logAgent.verify(self.search)
             except AssertFailedException as e:
-                self.errors.append({"Agent": logAgent.agent})
+                self.errors.append({"agent": logAgent.agent})
         self._printResult()
 
     def _printResult(self):
@@ -35,6 +47,6 @@ class Application:
             failure,
             total))
         for error in self.errors:
-            myprint("Agent: {0}\n".format(error["file"]))
+            myprint("Agent: {0}\n".format(error["agent"]))
         LogInfo("\n")
 

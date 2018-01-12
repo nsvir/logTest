@@ -8,6 +8,34 @@ live  test examples :
   - Java chat example (below).
   - [Restaurant mobile App](https://github.com/nsvir/logTest/wiki/Testing-a-mobile-App).
 
+## QuickRun
+
+### virtuelenv
+```
+virtualenv venv
+source ./venv/bin/activate
+pip install -r requierments.txt
+```
+if you have already done that just do
+```
+source ./venv/bin/activate
+```
+
+`deactivate` to live the virtualenv
+
+### injecting logs v2 (not required for spirana.lille.inria.fr)
+```
+python ./demo/tools/logToElastic.py --index=chat_failure ./demo/v2_logs/failure/client.log ./demo/v2_logs/failure/server.log
+python ./demo/tools/logToElastic.py --index=chat_success ./demo/v2_logs/failure/client.log ./demo/v2_logs/success/server.log
+```
+
+### running demo v2
+```
+source ./venv/bin/activate
+PYTHONPATH=src/ python demo/v2.py -v
+```
+
+
 ## Getting Started
 ### Example
 
