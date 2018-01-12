@@ -17,7 +17,7 @@ class LogAgent(object):
         self.expectedList.append(expected)
 
     def _verifyLogFile(self, search):
-        timestamp_cursor = "2017.12.22-17.48.49.643"
+        timestamp_cursor = None
         for expectedLine in self.expectedList:
             s = search
             if timestamp_cursor is not None:
