@@ -1,0 +1,19 @@
+version: '3'
+services:
+  elasticsearch:
+    image: "elasticsearch"
+    ports:
+     - "9300:9300"
+     - "9200:9200"
+  kibana:
+    image: "kibana"
+    ports:
+     - "80:5601"
+  logstash:
+    image: "logstash"
+    ports:
+     - "9600:9600"
+    command: -f /config/logstash.conf
+    volumes:
+     - ./logs:/logs:ro
+     - ./logstash:/config:ro
