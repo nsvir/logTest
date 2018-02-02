@@ -1,0 +1,470 @@
+[34mI20180126-16:25:21.666(1)? [39m[34mMeteor ➔ method[39m public-settings/get -> userId: null , arguments:  {}
+[34mI20180126-16:25:21.681(1)? [39m[34mMeteor ➔ method[39m permissions/get -> userId: null , arguments:  {}
+[34mI20180126-16:25:21.727(1)? [39m[34mMeteor ➔ publish[39m null -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:21.735(1)? [39m[34mMeteor ➔ publish[39m activeUsers -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:21.736(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: { username: { '$exists': 1 },
+[34mI20180126-16:25:21.736(1)? [39m  status: { '$in': [ 'online', 'away', 'busy' ] } }
+[34mI20180126-16:25:21.738(1)? [39m[34mMeteor ➔ publish[39m userData -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:21.738(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: 6khKy3K7TrafS3RBe
+[34mI20180126-16:25:21.770(1)? [39m[34mMeteor ➔ method[39m subscriptions/get -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:21.797(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:25:21.798(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:21.798(1)? [39m     appName: 'main',
+[34mI20180126-16:25:21.798(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:21.799(1)? [39m     metadata: {},
+[34mI20180126-16:25:21.799(1)? [39m     token: 
+[34mI20180126-16:25:21.799(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:25:21.799(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:21.800(1)? [39m  appName: 'main',
+[34mI20180126-16:25:21.800(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:21.800(1)? [39m  metadata: {},
+[34mI20180126-16:25:21.800(1)? [39m  token: 
+[34mI20180126-16:25:21.801(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:25:21.805(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:21.805(1)? [39m  token: 
+[34mI20180126-16:25:21.806(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:25:21.806(1)? [39m  appName: 'main',
+[34mI20180126-16:25:21.806(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:21.806(1)? [39m  enabled: true,
+[34mI20180126-16:25:21.806(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:25:21.806(1)? [39m  updatedAt: 2018-01-26T15:24:13.581Z }
+[34mI20180126-16:25:23.238(1)? [39m[34mMeteor ➔ method[39m raix:push-setuser -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'bef5d7c51d7a44348da74bc613839cee' }
+[34mI20180126-16:25:23.239(1)? [39mPush: Settings userId "6khKy3K7TrafS3RBe" for app: bef5d7c51d7a44348da74bc613839cee
+[34mI20180126-16:25:23.248(1)? [39m[34mMeteor ➔ publish[39m stream-room-messages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8', '1': false }
+[34mI20180126-16:25:23.249(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:25:23.249(1)? [39m  '1': '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:23.250(1)? [39m  '2': undefined }
+[34mI20180126-16:25:23.294(1)? [39m[34mMeteor ➔ publish[39m stream-notify-user -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBe/subscriptions-changed', '1': false }
+[34mI20180126-16:25:26.157(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:25:26.159(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:26.160(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:25:26.161(1)? [39m  '1': 2018-01-26T15:19:16.160Z }
+[34mI20180126-16:25:26.161(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:25:26.162(1)? [39m  '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:25:26.208(1)? [39m[34mMeteor ➔ publish[39m null -> userId: null , arguments:  {}
+[34mI20180126-16:25:26.232(1)? [39m[34mMeteor ➔ method[39m public-settings/get -> userId: null , arguments:  {}
+[34mI20180126-16:25:26.247(1)? [39m[34mMeteor ➔ method[39m permissions/get -> userId: null , arguments:  {}
+[34mI20180126-16:25:26.647(1)? [39m[34mMeteor ➔ publish[39m null -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:26.654(1)? [39m[34mMeteor ➔ publish[39m activeUsers -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:26.655(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: { username: { '$exists': 1 },
+[34mI20180126-16:25:26.655(1)? [39m  status: { '$in': [ 'online', 'away', 'busy' ] } }
+[34mI20180126-16:25:26.656(1)? [39m[34mMeteor ➔ publish[39m userData -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:26.657(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: 6khKy3K7TrafS3RBe
+[34mI20180126-16:25:26.659(1)? [39m[34mMeteor ➔ method[39m subscriptions/get -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:26.660(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:25:26.660(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:26.660(1)? [39m     appName: 'main',
+[34mI20180126-16:25:26.660(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:26.660(1)? [39m     metadata: {},
+[34mI20180126-16:25:26.660(1)? [39m     token: 
+[34mI20180126-16:25:26.661(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:25:26.661(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:26.661(1)? [39m  appName: 'main',
+[34mI20180126-16:25:26.661(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:26.661(1)? [39m  metadata: {},
+[34mI20180126-16:25:26.662(1)? [39m  token: 
+[34mI20180126-16:25:26.662(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:25:26.666(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:26.666(1)? [39m  token: 
+[34mI20180126-16:25:26.666(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:25:26.666(1)? [39m  appName: 'main',
+[34mI20180126-16:25:26.667(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:26.667(1)? [39m  enabled: true,
+[34mI20180126-16:25:26.667(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:25:26.667(1)? [39m  updatedAt: 2018-01-26T15:25:21.799Z }
+[34mI20180126-16:25:26.667(1)? [39m[34mMeteor ➔ method[39m loadHistory -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:25:26.667(1)? [39m  '1': null,
+[34mI20180126-16:25:26.668(1)? [39m  '2': 50,
+[34mI20180126-16:25:26.668(1)? [39m  '3': null }
+[34mI20180126-16:25:26.668(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:25:26.668(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:25:26.668(1)? [39m  '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:25:27.116(1)? [39m[34mMeteor ➔ method[39m readMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:25:28.715(1)? [39m[34mMeteor ➔ method[39m loadHistory -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': null, '2': 50, '3': null }
+[34mI20180126-16:25:28.716(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:25:28.756(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:25:28.838(1)? [39m[34mMeteor ➔ method[39m raix:push-setuser -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'bef5d7c51d7a44348da74bc613839cee' }
+[34mI20180126-16:25:28.839(1)? [39mPush: Settings userId "6khKy3K7TrafS3RBe" for app: bef5d7c51d7a44348da74bc613839cee
+[34mI20180126-16:25:28.842(1)? [39m[34mMeteor ➔ publish[39m stream-room-messages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': false }
+[34mI20180126-16:25:28.843(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe', '2': undefined }
+[34mI20180126-16:25:28.872(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:28.882(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': 2018-01-26T15:11:36.708Z }
+[34mI20180126-16:25:28.883(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:25:28.896(1)? [39m[34mMeteor ➔ publish[39m stream-notify-user -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBe/subscriptions-changed', '1': false }
+[34mI20180126-16:25:29.130(1)? [39m[34mMeteor ➔ method[39m readMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:25:30.514(1)? [39m[34mMeteor ➔ method[39m UserPresence:away -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:57.503(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:25:57.566(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:57.584(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': 2018-01-26T15:11:36.708Z }
+[34mI20180126-16:25:57.584(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:25:57.735(1)? [39m[34mMeteor ➔ method[39m loadHistory -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': null, '2': 50, '3': null }
+[34mI20180126-16:25:57.736(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:25:57.792(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:25:57.919(1)? [39m[34mMeteor ➔ publish[39m null -> userId: null , arguments:  {}
+[34mI20180126-16:25:58.288(1)? [39m[34mMeteor ➔ method[39m public-settings/get -> userId: null , arguments:  {}
+[34mI20180126-16:25:58.290(1)? [39m[34mMeteor ➔ method[39m permissions/get -> userId: null , arguments:  {}
+[34mI20180126-16:25:58.314(1)? [39m[34mMeteor ➔ publish[39m null -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:58.320(1)? [39m[34mMeteor ➔ publish[39m activeUsers -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:58.320(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: { username: { '$exists': 1 },
+[34mI20180126-16:25:58.320(1)? [39m  status: { '$in': [ 'online', 'away', 'busy' ] } }
+[34mI20180126-16:25:58.326(1)? [39m[34mMeteor ➔ publish[39m userData -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:58.326(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: 6khKy3K7TrafS3RBe
+[34mI20180126-16:25:58.327(1)? [39m[34mMeteor ➔ method[39m subscriptions/get -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:25:58.327(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:25:58.327(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:58.327(1)? [39m     appName: 'main',
+[34mI20180126-16:25:58.327(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:58.328(1)? [39m     metadata: {},
+[34mI20180126-16:25:58.328(1)? [39m     token: 
+[34mI20180126-16:25:58.328(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:25:58.328(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:58.328(1)? [39m  appName: 'main',
+[34mI20180126-16:25:58.329(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:58.329(1)? [39m  metadata: {},
+[34mI20180126-16:25:58.329(1)? [39m  token: 
+[34mI20180126-16:25:58.329(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:25:58.332(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:25:58.332(1)? [39m  token: 
+[34mI20180126-16:25:58.332(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:25:58.332(1)? [39m  appName: 'main',
+[34mI20180126-16:25:58.332(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:25:58.332(1)? [39m  enabled: true,
+[34mI20180126-16:25:58.333(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:25:58.333(1)? [39m  updatedAt: 2018-01-26T15:25:26.661Z }
+[34mI20180126-16:26:00.173(1)? [39m[34mMeteor ➔ method[39m raix:push-setuser -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'bef5d7c51d7a44348da74bc613839cee' }
+[34mI20180126-16:26:00.173(1)? [39mPush: Settings userId "6khKy3K7TrafS3RBe" for app: bef5d7c51d7a44348da74bc613839cee
+[34mI20180126-16:26:00.180(1)? [39m[34mMeteor ➔ publish[39m stream-room-messages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': false }
+[34mI20180126-16:26:00.181(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe', '2': undefined }
+[34mI20180126-16:26:00.182(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:26:00.183(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': 2018-01-26T15:25:29.131Z }
+[34mI20180126-16:26:00.184(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:26:00.227(1)? [39m[34mMeteor ➔ publish[39m stream-notify-user -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBe/subscriptions-changed', '1': false }
+[34mI20180126-16:26:27.751(1)? [39m[34mMeteor ➔ method[39m UserPresence:away -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:26:41.247(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:26:41.247(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:26:41.247(1)? [39m  '2': { users: true },
+[34mI20180126-16:26:41.248(1)? [39m  '3': 'GENERAL' }
+[34mI20180126-16:26:59.151(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:26:59.196(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:26:59.234(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:26:59.234(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:26:59.235(1)? [39m  '2': { users: true },
+[34mI20180126-16:26:59.235(1)? [39m  '3': 'GENERAL' }
+[34mI20180126-16:27:01.605(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': 2018-01-26T15:25:29.131Z }
+[34mI20180126-16:27:01.607(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:27:01.612(1)? [39m[34mMeteor ➔ method[39m loadHistory -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': null, '2': 50, '3': null }
+[34mI20180126-16:27:01.616(1)? [39m[34mMeteor ➔ method[39m getRoomRoles -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:27:01.623(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:27:01.699(1)? [39m[34mMeteor ➔ publish[39m null -> userId: null , arguments:  {}
+[34mI20180126-16:27:01.779(1)? [39m[34mMeteor ➔ method[39m public-settings/get -> userId: null , arguments:  {}
+[34mI20180126-16:27:01.780(1)? [39m[34mMeteor ➔ method[39m permissions/get -> userId: null , arguments:  {}
+[34mI20180126-16:27:01.818(1)? [39m[34mMeteor ➔ publish[39m null -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:01.819(1)? [39m[34mMeteor ➔ publish[39m activeUsers -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:01.820(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: { username: { '$exists': 1 },
+[34mI20180126-16:27:01.820(1)? [39m  status: { '$in': [ 'online', 'away', 'busy' ] } }
+[34mI20180126-16:27:01.831(1)? [39m[34mMeteor ➔ publish[39m userData -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:01.832(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: 6khKy3K7TrafS3RBe
+[34mI20180126-16:27:01.852(1)? [39m[34mMeteor ➔ method[39m subscriptions/get -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:01.909(1)? [39m[34mMeteor ➔ method[39m UserPresence:away -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:01.984(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:27:01.985(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.990(1)? [39m     appName: 'main',
+[34mI20180126-16:27:01.990(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.990(1)? [39m     metadata: {},
+[34mI20180126-16:27:01.990(1)? [39m     token: 
+[34mI20180126-16:27:01.990(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:27:01.990(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.990(1)? [39m  appName: 'main',
+[34mI20180126-16:27:01.991(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.991(1)? [39m  metadata: {},
+[34mI20180126-16:27:01.991(1)? [39m  token: 
+[34mI20180126-16:27:01.991(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:27:01.991(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.991(1)? [39m  token: 
+[34mI20180126-16:27:01.992(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:27:01.992(1)? [39m  appName: 'main',
+[34mI20180126-16:27:01.992(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.992(1)? [39m  enabled: true,
+[34mI20180126-16:27:01.992(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:27:01.992(1)? [39m  updatedAt: 2018-01-26T15:25:58.327Z }
+[34mI20180126-16:27:01.992(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:27:01.993(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.993(1)? [39m     appName: 'main',
+[34mI20180126-16:27:01.993(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.993(1)? [39m     metadata: {},
+[34mI20180126-16:27:01.993(1)? [39m     token: 
+[34mI20180126-16:27:01.993(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:27:01.993(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.994(1)? [39m  appName: 'main',
+[34mI20180126-16:27:01.994(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.994(1)? [39m  metadata: {},
+[34mI20180126-16:27:01.994(1)? [39m  token: 
+[34mI20180126-16:27:01.994(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:27:01.994(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.994(1)? [39m  token: 
+[34mI20180126-16:27:01.995(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:27:01.995(1)? [39m  appName: 'main',
+[34mI20180126-16:27:01.995(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.995(1)? [39m  enabled: true,
+[34mI20180126-16:27:01.995(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:27:01.995(1)? [39m  updatedAt: 2018-01-26T15:27:01.961Z }
+[34mI20180126-16:27:01.995(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:27:01.996(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.996(1)? [39m     appName: 'main',
+[34mI20180126-16:27:01.996(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.996(1)? [39m     metadata: {},
+[34mI20180126-16:27:01.996(1)? [39m     token: 
+[34mI20180126-16:27:01.996(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:27:01.996(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.997(1)? [39m  appName: 'main',
+[34mI20180126-16:27:01.997(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.997(1)? [39m  metadata: {},
+[34mI20180126-16:27:01.997(1)? [39m  token: 
+[34mI20180126-16:27:01.997(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:27:01.997(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:01.998(1)? [39m  token: 
+[34mI20180126-16:27:01.998(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:27:01.998(1)? [39m  appName: 'main',
+[34mI20180126-16:27:01.998(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:01.998(1)? [39m  enabled: true,
+[34mI20180126-16:27:01.998(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:27:01.998(1)? [39m  updatedAt: 2018-01-26T15:27:01.967Z }
+[34mI20180126-16:27:02.898(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:27:02.899(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:27:02.905(1)? [39m  '2': { users: true },
+[34mI20180126-16:27:02.905(1)? [39m  '3': 'GENERAL' }
+[34mI20180126-16:27:08.737(1)? [39m[34mMeteor ➔ method[39m stream-notify-room -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'GENERAL/typing', '1': 'pc', '2': true }
+[34mI20180126-16:27:09.991(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:27:09.992(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:27:09.992(1)? [39m  '2': { users: true },
+[34mI20180126-16:27:09.992(1)? [39m  '3': 'GENERAL' }
+[34mI20180126-16:27:12.715(1)? [39m[34mMeteor ➔ method[39m stream-notify-room -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'GENERAL/typing', '1': 'pc', '2': false }
+[34mI20180126-16:27:12.719(1)? [39m[34mMeteor ➔ method[39m sendMessage -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 
+[34mI20180126-16:27:12.719(1)? [39m   { _id: '7FkECWhwa8mPhEJRF',
+[34mI20180126-16:27:12.719(1)? [39m     rid: 'GENERAL',
+[34mI20180126-16:27:12.720(1)? [39m     msg: '@android hey from channel' } }
+[34mI20180126-16:27:12.720(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'GENERAL', '1': 'u4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:27:12.736(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Execute Trigger: sendMessage
+[34mI20180126-16:27:12.737(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Got the event arguments for the event: sendMessage { event: 'sendMessage',
+[34mI20180126-16:27:12.738(1)? [39m  message: 
+[34mI20180126-16:27:12.738(1)? [39m   { _id: '7FkECWhwa8mPhEJRF',
+[34mI20180126-16:27:12.738(1)? [39m     rid: 'GENERAL',
+[34mI20180126-16:27:12.738(1)? [39m     msg: '@android hey from channel',
+[34mI20180126-16:27:12.739(1)? [39m     ts: 2018-01-26T15:27:12.719Z,
+[34mI20180126-16:27:12.739(1)? [39m     u: { _id: 'u4KNrqQn3mFy27Ry8', username: 'pc', name: 'pc' },
+[34mI20180126-16:27:12.739(1)? [39m     mentions: [ [Object] ],
+[34mI20180126-16:27:12.739(1)? [39m     channels: [],
+[34mI20180126-16:27:12.740(1)? [39m     _updatedAt: 2018-01-26T15:27:12.722Z,
+[34mI20180126-16:27:12.740(1)? [39m     sandstormSessionId: null },
+[34mI20180126-16:27:12.740(1)? [39m  room: 
+[34mI20180126-16:27:12.740(1)? [39m   { _id: 'GENERAL',
+[34mI20180126-16:27:12.741(1)? [39m     ts: 2018-01-26T11:29:53.525Z,
+[34mI20180126-16:27:12.741(1)? [39m     t: 'c',
+[34mI20180126-16:27:12.741(1)? [39m     name: 'general',
+[34mI20180126-16:27:12.741(1)? [39m     msgs: 11,
+[34mI20180126-16:27:12.741(1)? [39m     default: true,
+[34mI20180126-16:27:12.742(1)? [39m     _updatedAt: 2018-01-26T15:25:01.853Z,
+[34mI20180126-16:27:12.742(1)? [39m     lm: 2018-01-26T15:25:01.844Z,
+[34mI20180126-16:27:12.742(1)? [39m     meta: 
+[34mI20180126-16:27:12.742(1)? [39m      { revision: 3,
+[34mI20180126-16:27:12.742(1)? [39m        created: 1516979714916,
+[34mI20180126-16:27:12.742(1)? [39m        version: 0,
+[34mI20180126-16:27:12.742(1)? [39m        updated: 1516980301855 },
+[34mI20180126-16:27:12.743(1)? [39m     '$loki': 1,
+[34mI20180126-16:27:12.743(1)? [39m     usernames: [ 'pc', 'android' ],
+[34mI20180126-16:27:12.743(1)? [39m     username: 'pc' } }
+[34mI20180126-16:27:12.743(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Starting search for triggers for the room: GENERAL
+[34mI20180126-16:27:12.743(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Found 0 to iterate over and see if the match the event.
+[34mI20180126-16:27:12.931(1)? [39mPush: send message "#general" via query { userId: '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:27:12.933(1)? [39mPush: send to token { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' }
+[34mI20180126-16:27:19.708(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:27:19.708(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:27:19.709(1)? [39m  '2': { users: true },
+[34mI20180126-16:27:19.709(1)? [39m  '3': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:27:20.201(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '',
+[34mI20180126-16:27:20.202(1)? [39m  '1': 
+[34mI20180126-16:27:20.202(1)? [39m   [ { _id: 'u4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:20.203(1)? [39m       emails: [Array],
+[34mI20180126-16:27:20.203(1)? [39m       username: 'pc',
+[34mI20180126-16:27:20.203(1)? [39m       active: true,
+[34mI20180126-16:27:20.203(1)? [39m       name: 'pc',
+[34mI20180126-16:27:20.204(1)? [39m       roles: [Array],
+[34mI20180126-16:27:20.204(1)? [39m       services: [Object],
+[34mI20180126-16:27:20.204(1)? [39m       status: 'online',
+[34mI20180126-16:27:20.204(1)? [39m       statusConnection: 'online',
+[34mI20180126-16:27:20.205(1)? [39m       statusDefault: 'online',
+[34mI20180126-16:27:20.205(1)? [39m       utcOffset: 1 } ],
+[34mI20180126-16:27:20.205(1)? [39m  '2': { users: true, rooms: true } }
+[34mI20180126-16:27:21.117(1)? [39m[34mMeteor ➔ method[39m stream-notify-room -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8/typing',
+[34mI20180126-16:27:21.117(1)? [39m  '1': 'pc',
+[34mI20180126-16:27:21.117(1)? [39m  '2': true }
+[34mI20180126-16:27:23.687(1)? [39m[34mMeteor ➔ method[39m stream-notify-room -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8/typing',
+[34mI20180126-16:27:23.687(1)? [39m  '1': 'pc',
+[34mI20180126-16:27:23.687(1)? [39m  '2': false }
+[34mI20180126-16:27:23.689(1)? [39m[34mMeteor ➔ method[39m sendMessage -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 
+[34mI20180126-16:27:23.689(1)? [39m   { _id: 'GqBvkPb2eREmHq4N2',
+[34mI20180126-16:27:23.689(1)? [39m     rid: '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:23.689(1)? [39m     msg: 'hey from private message' } }
+[34mI20180126-16:27:23.689(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:23.690(1)? [39m  '1': 'u4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:27:23.704(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Execute Trigger: sendMessage
+[34mI20180126-16:27:23.710(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Got the event arguments for the event: sendMessage { event: 'sendMessage',
+[34mI20180126-16:27:23.710(1)? [39m  message: 
+[34mI20180126-16:27:23.710(1)? [39m   { _id: 'GqBvkPb2eREmHq4N2',
+[34mI20180126-16:27:23.710(1)? [39m     rid: '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:23.710(1)? [39m     msg: 'hey from private message',
+[34mI20180126-16:27:23.711(1)? [39m     ts: 2018-01-26T15:27:23.689Z,
+[34mI20180126-16:27:23.711(1)? [39m     u: { _id: 'u4KNrqQn3mFy27Ry8', username: 'pc', name: 'pc' },
+[34mI20180126-16:27:23.711(1)? [39m     mentions: [],
+[34mI20180126-16:27:23.711(1)? [39m     channels: [],
+[34mI20180126-16:27:23.711(1)? [39m     _updatedAt: 2018-01-26T15:27:23.690Z,
+[34mI20180126-16:27:23.711(1)? [39m     sandstormSessionId: null },
+[34mI20180126-16:27:23.711(1)? [39m  room: 
+[34mI20180126-16:27:23.712(1)? [39m   { _id: '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:23.712(1)? [39m     _updatedAt: 2018-01-26T15:24:52.876Z,
+[34mI20180126-16:27:23.712(1)? [39m     t: 'd',
+[34mI20180126-16:27:23.712(1)? [39m     msgs: 102,
+[34mI20180126-16:27:23.712(1)? [39m     ts: 2018-01-26T11:32:12.619Z,
+[34mI20180126-16:27:23.712(1)? [39m     lm: 2018-01-26T15:24:52.868Z,
+[34mI20180126-16:27:23.713(1)? [39m     meta: 
+[34mI20180126-16:27:23.713(1)? [39m      { revision: 6,
+[34mI20180126-16:27:23.713(1)? [39m        created: 1516979714916,
+[34mI20180126-16:27:23.713(1)? [39m        version: 0,
+[34mI20180126-16:27:23.713(1)? [39m        updated: 1516980292879 },
+[34mI20180126-16:27:23.713(1)? [39m     '$loki': 3,
+[34mI20180126-16:27:23.714(1)? [39m     usernames: [ 'android', 'pc' ],
+[34mI20180126-16:27:23.714(1)? [39m     username: 'pc' } }
+[34mI20180126-16:27:23.714(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Starting search for triggers for the room: 6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8
+[34mI20180126-16:27:23.714(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Found 0 to iterate over and see if the match the event.
+[34mI20180126-16:27:23.941(1)? [39mPush: send message "pc" via query { userId: '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:27:23.942(1)? [39mPush: send to token { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' }
+[34mI20180126-16:27:33.618(1)? [39m[34mMeteor ➔ publish[39m null -> userId: null , arguments:  {}
+[34mI20180126-16:27:33.639(1)? [39m[34mMeteor ➔ method[39m public-settings/get -> userId: null , arguments:  {}
+[34mI20180126-16:27:33.654(1)? [39m[34mMeteor ➔ method[39m permissions/get -> userId: null , arguments:  {}
+[34mI20180126-16:27:33.689(1)? [39m[34mMeteor ➔ publish[39m null -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:33.709(1)? [39m[34mMeteor ➔ publish[39m activeUsers -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:33.710(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: { username: { '$exists': 1 },
+[34mI20180126-16:27:33.710(1)? [39m  status: { '$in': [ 'online', 'away', 'busy' ] } }
+[34mI20180126-16:27:33.737(1)? [39m[34mMeteor ➔ publish[39m userData -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:33.738(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: 6khKy3K7TrafS3RBe
+[34mI20180126-16:27:33.752(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:27:33.752(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:27:33.752(1)? [39m  '2': { users: true },
+[34mI20180126-16:27:33.753(1)? [39m  '3': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:27:33.769(1)? [39m[34mMeteor ➔ method[39m subscriptions/get -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:33.806(1)? [39m[34mMeteor ➔ method[39m loadHistory -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': null, '2': 50, '3': null }
+[34mI20180126-16:27:33.807(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:27:33.871(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:27:33.871(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:33.871(1)? [39m     appName: 'main',
+[34mI20180126-16:27:33.872(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:33.872(1)? [39m     metadata: {},
+[34mI20180126-16:27:33.872(1)? [39m     token: 
+[34mI20180126-16:27:33.872(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:27:33.872(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:33.872(1)? [39m  appName: 'main',
+[34mI20180126-16:27:33.873(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:33.873(1)? [39m  metadata: {},
+[34mI20180126-16:27:33.873(1)? [39m  token: 
+[34mI20180126-16:27:33.873(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:27:33.873(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:33.873(1)? [39m  token: 
+[34mI20180126-16:27:33.874(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:27:33.874(1)? [39m  appName: 'main',
+[34mI20180126-16:27:33.874(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:33.874(1)? [39m  enabled: true,
+[34mI20180126-16:27:33.874(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:27:33.874(1)? [39m  updatedAt: 2018-01-26T15:27:01.972Z }
+[34mI20180126-16:27:35.635(1)? [39m[34mMeteor ➔ publish[39m null -> userId: null , arguments:  {}
+[34mI20180126-16:27:35.653(1)? [39m[34mMeteor ➔ method[39m raix:push-setuser -> userId: null , arguments:  { '0': 'bef5d7c51d7a44348da74bc613839cee' }
+[34mI20180126-16:27:35.653(1)? [39mPush: Settings userId "null" for app: bef5d7c51d7a44348da74bc613839cee
+[34mI20180126-16:27:35.660(1)? [39m[34mMeteor ➔ publish[39m stream-room-messages -> userId: null , arguments:  { '0': 'GENERAL', '1': false }
+[34mI20180126-16:27:35.662(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: null , arguments:  { '0': 'GENERAL', '1': null, '2': undefined }
+[34mI20180126-16:27:35.668(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: null , arguments:  {}
+[34mI20180126-16:27:35.686(1)? [39m[34mMeteor ➔ method[39m public-settings/get -> userId: null , arguments:  {}
+[34mI20180126-16:27:35.705(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: null , arguments:  { '0': 'GENERAL', '1': 2018-01-26T15:25:29.131Z }
+[34mI20180126-16:27:35.705(1)? [39m[34mMeteor ➔ method[39m permissions/get -> userId: null , arguments:  {}
+[34mI20180126-16:27:35.719(1)? [39m[34mMeteor ➔ publish[39m null -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:35.753(1)? [39m[34mMeteor ➔ method[39m UserPresence:online -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:35.777(1)? [39m[34mMeteor ➔ method[39m loadMissedMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': 2018-01-26T15:25:29.131Z }
+[34mI20180126-16:27:35.777(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe' }
+[34mI20180126-16:27:35.778(1)? [39m[34mMeteor ➔ publish[39m activeUsers -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:35.778(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: { username: { '$exists': 1 },
+[34mI20180126-16:27:35.778(1)? [39m  status: { '$in': [ 'online', 'away', 'busy' ] } }
+[34mI20180126-16:27:35.844(1)? [39m[34mMeteor ➔ publish[39m userData -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:35.845(1)? [39m[34mBaseCache ➔ debug[39m users Falling back _publishCursor to model with query: 6khKy3K7TrafS3RBe
+[34mI20180126-16:27:35.845(1)? [39m[34mMeteor ➔ publish[39m stream-notify-user -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBe/subscriptions-changed', '1': false }
+[34mI20180126-16:27:35.850(1)? [39m[34mMeteor ➔ method[39m subscriptions/get -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:35.861(1)? [39m[34mMeteor ➔ method[39m raix:push-update -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 
+[34mI20180126-16:27:35.862(1)? [39m   { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:35.862(1)? [39m     appName: 'main',
+[34mI20180126-16:27:35.862(1)? [39m     userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:35.862(1)? [39m     metadata: {},
+[34mI20180126-16:27:35.862(1)? [39m     token: 
+[34mI20180126-16:27:35.863(1)? [39m      { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } } }
+[34mI20180126-16:27:35.863(1)? [39mPush: Got push token from app: { id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:35.863(1)? [39m  appName: 'main',
+[34mI20180126-16:27:35.863(1)? [39m  userId: '6khKy3K7TrafS3RBe',
+[34mI20180126-16:27:35.863(1)? [39m  metadata: {},
+[34mI20180126-16:27:35.863(1)? [39m  token: 
+[34mI20180126-16:27:35.863(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' } }
+[34mI20180126-16:27:35.863(1)? [39mPush: updated { _id: 'bef5d7c51d7a44348da74bc613839cee',
+[34mI20180126-16:27:35.864(1)? [39m  token: 
+[34mI20180126-16:27:35.864(1)? [39m   { gcm: 'd-pbT_0B0zg:APA91bH9vTOcFgSGd83EzftZkwayZQyYPunWA1-1cQfxRB9WVrMesqiNfL194behlQpG0wlUQ4QBNixsT1syVD7NJGlaL0Gbn0IZzJrCtJL3EIqOGmjfdKD9nes7qvhh4os3QGB1sPoP' },
+[34mI20180126-16:27:35.864(1)? [39m  appName: 'main',
+[34mI20180126-16:27:35.864(1)? [39m  userId: null,
+[34mI20180126-16:27:35.864(1)? [39m  enabled: true,
+[34mI20180126-16:27:35.864(1)? [39m  createdAt: 2018-01-26T13:17:42.640Z,
+[34mI20180126-16:27:35.864(1)? [39m  updatedAt: 2018-01-26T15:27:33.848Z }
+[34mI20180126-16:27:36.030(1)? [39m[34mMeteor ➔ method[39m readMessages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL' }
+[34mI20180126-16:27:38.202(1)? [39m[34mMeteor ➔ method[39m raix:push-setuser -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'bef5d7c51d7a44348da74bc613839cee' }
+[34mI20180126-16:27:38.203(1)? [39mPush: Settings userId "6khKy3K7TrafS3RBe" for app: bef5d7c51d7a44348da74bc613839cee
+[34mI20180126-16:27:38.209(1)? [39m[34mMeteor ➔ publish[39m stream-room-messages -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': false }
+[34mI20180126-16:27:38.210(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': 'GENERAL', '1': '6khKy3K7TrafS3RBe', '2': undefined }
+[34mI20180126-16:27:38.346(1)? [39m[34mMeteor ➔ publish[39m stream-notify-user -> userId: 6khKy3K7TrafS3RBe , arguments:  { '0': '6khKy3K7TrafS3RBe/subscriptions-changed', '1': false }
+[34mI20180126-16:27:39.130(1)? [39m[34mMeteor ➔ method[39m UserPresence:away -> userId: 6khKy3K7TrafS3RBe , arguments:  {}
+[34mI20180126-16:27:41.392(1)? [39m[34mMeteor ➔ method[39m stream-notify-room -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8/typing',
+[34mI20180126-16:27:41.392(1)? [39m  '1': 'pc',
+[34mI20180126-16:27:41.392(1)? [39m  '2': true }
+[34mI20180126-16:27:42.915(1)? [39m[34mMeteor ➔ method[39m stream-notify-room -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8/typing',
+[34mI20180126-16:27:42.916(1)? [39m  '1': 'pc',
+[34mI20180126-16:27:42.916(1)? [39m  '2': false }
+[34mI20180126-16:27:42.918(1)? [39m[34mMeteor ➔ method[39m sendMessage -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 
+[34mI20180126-16:27:42.919(1)? [39m   { _id: 'dT5yWZPdSjKiEpfWj',
+[34mI20180126-16:27:42.919(1)? [39m     rid: '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:42.919(1)? [39m     msg: 'is it broken ?' } }
+[34mI20180126-16:27:42.920(1)? [39m[34mMeteor ➔ method[39m canAccessRoom -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:42.920(1)? [39m  '1': 'u4KNrqQn3mFy27Ry8' }
+[34mI20180126-16:27:42.934(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Execute Trigger: sendMessage
+[34mI20180126-16:27:42.935(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Got the event arguments for the event: sendMessage { event: 'sendMessage',
+[34mI20180126-16:27:42.935(1)? [39m  message: 
+[34mI20180126-16:27:42.935(1)? [39m   { _id: 'dT5yWZPdSjKiEpfWj',
+[34mI20180126-16:27:42.935(1)? [39m     rid: '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:42.935(1)? [39m     msg: 'is it broken ?',
+[34mI20180126-16:27:42.935(1)? [39m     ts: 2018-01-26T15:27:42.919Z,
+[34mI20180126-16:27:42.936(1)? [39m     u: { _id: 'u4KNrqQn3mFy27Ry8', username: 'pc', name: 'pc' },
+[34mI20180126-16:27:42.936(1)? [39m     mentions: [],
+[34mI20180126-16:27:42.936(1)? [39m     channels: [],
+[34mI20180126-16:27:42.936(1)? [39m     _updatedAt: 2018-01-26T15:27:42.921Z,
+[34mI20180126-16:27:42.936(1)? [39m     sandstormSessionId: null },
+[34mI20180126-16:27:42.936(1)? [39m  room: 
+[34mI20180126-16:27:42.937(1)? [39m   { _id: '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8',
+[34mI20180126-16:27:42.937(1)? [39m     _updatedAt: 2018-01-26T15:27:23.696Z,
+[34mI20180126-16:27:42.937(1)? [39m     t: 'd',
+[34mI20180126-16:27:42.937(1)? [39m     msgs: 103,
+[34mI20180126-16:27:42.937(1)? [39m     ts: 2018-01-26T11:32:12.619Z,
+[34mI20180126-16:27:42.937(1)? [39m     lm: 2018-01-26T15:27:23.689Z,
+[34mI20180126-16:27:42.937(1)? [39m     meta: 
+[34mI20180126-16:27:42.938(1)? [39m      { revision: 7,
+[34mI20180126-16:27:42.938(1)? [39m        created: 1516979714916,
+[34mI20180126-16:27:42.938(1)? [39m        version: 0,
+[34mI20180126-16:27:42.938(1)? [39m        updated: 1516980443698 },
+[34mI20180126-16:27:42.938(1)? [39m     '$loki': 3,
+[34mI20180126-16:27:42.939(1)? [39m     usernames: [ 'android', 'pc' ],
+[34mI20180126-16:27:42.939(1)? [39m     username: 'pc' } }
+[34mI20180126-16:27:42.939(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Starting search for triggers for the room: 6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8
+[34mI20180126-16:27:42.939(1)? [39m[34mIntegrations ➔ Outgoing WebHook.debug[39m Found 0 to iterate over and see if the match the event.
+[34mI20180126-16:28:18.711(1)? [39m[34mMeteor ➔ method[39m spotlight -> userId: u4KNrqQn3mFy27Ry8 , arguments:  { '0': 'android',
+[34mI20180126-16:28:18.711(1)? [39m  '1': [ 'android' ],
+[34mI20180126-16:28:18.711(1)? [39m  '2': { users: true },
+[34mI20180126-16:28:18.712(1)? [39m  '3': '6khKy3K7TrafS3RBeu4KNrqQn3mFy27Ry8' }
