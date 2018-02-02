@@ -1,0 +1,31 @@
+> time (for file in logs/**/*.log; do python3 ./tools/extractLog.py $file 1>>./parsedLogs 2>>./unknownLogs; done)
+( for file in logs/**/*.log; do; python3 ./tools/extractLog.py $file >>  2>> )  91.27s user 3.97s system 74% cpu 2:08.60 total
+
+> wc -l parsedLogs unknownLogs
+   5636579 parsedLogs
+   9775352 unknownLogs
+  15411931 total
+
+> head parsedLogs
+  date: 03-30	time: 11:09:52.994	info: D/Fougere ( 2259)	msg: [Fougere] 0 data in the DataPool
+  date: 03-30	time: 11:09:52.995	info: D/Fougere ( 2259)	msg: [Fougere] Regroup 0 data from the WiFiDirect module
+  date: 03-30	time: 11:09:52.998	info: E/Fougere ( 2259)	msg: [WiFiDirect] Failed to deletePersistentGroup: method NOT found
+  date: 03-30	time: 11:09:52.999	info: D/Fougere ( 2259)	msg: [FougereActionListener] Remove group succeeded
+  date: 03-30	time: 11:09:53.045	info: E/WiDi    ( 2259)	msg: Error: null
+  date: 03-30	time: 11:09:53.045	info: E/Fougere ( 2259)	msg: [FougereActionListener] Stop peer discovery failed: The operation failed due to an internal error. (0, ERROR)
+  date: 03-30	time: 11:09:53.047	info: D/Fougere ( 2259)	msg: [FougereActionListener] Cancel connect succeeded
+  date: 03-30	time: 11:09:53.325	info: D/WiDi    ( 2259)	msg: fr.inria.rsommerard.widi.CONNECT
+  date: 03-30	time: 11:09:53.325	info: V/WiDi    ( 2259)	msg: fr.inria.rsommerard.widi.CONNECT
+  date: 03-30	time: 11:09:53.325	info: D/WiDi    ( 2259)	msg: connect_state = false
+
+> head unknownLogs
+  couldNotParse WEAVE_IP: 10.32.0.100
+  couldNotParse Configuring redir for 10.32.0.100...
+  couldNotParse Zero Argument /entrypoint.sh
+  couldNotParse First Argument node
+  couldNotParse Starting emulator[5554]...
+  couldNotParse Waiting for emulator to start...
+  couldNotParse [Thu Mar 30 11:09:18 UTC 2017] Node actor started...
+  couldNotParse Arg 0 :fr.inria.rsommerard.fougereapp/.MainActivity
+  couldNotParse Arg 1 :10.32.0.100
+  couldNotParse Arg 2 :97

@@ -1,0 +1,3 @@
+```
+(cd elastic; docker-compose up -d)
+PYTHONPATH=../src python test.py
