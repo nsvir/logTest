@@ -57,8 +57,9 @@ class SpiralsCore:
                 log = result["log"]
                 timestamp = result["@timestamp"]
                 for element in element_list:
-                    if element["expected"] in log:
+                    if element["expected"].lower() in log.lower():
                         element["agent"].notify_match_expected(timestamp, log)
+                        print("time: %s, log: %s" % (timestamp, log))
                     else:
                         element["agent"].notify_not_match(timestamp)
                 self.timestamp_cursor = result["@timestamp"]
@@ -71,7 +72,12 @@ class SpiralsCore:
         s = s.sort("@timestamp")
         expected_match = []
         for element in element_list:
-            expected_match.append({"match_phrase": {"log": element["expected"]}})
+            query_string = Q("query_string",
+                             query="log:*%s*" % element["expected"],
+                             split_on_whitespace=False,
+                             analyze_wildcard=True)
+            expected_match.append(query_string)
+        #    {"wildcard": {"log": "*%s*" % element["expected"]}})
         s.query = Q('bool', should=expected_match)
         if self.timestamp_cursor is not None:
             s = s.filter("range", **{"@timestamp": {'gt': self.timestamp_cursor}})
@@ -93,8 +99,9 @@ class SpiralsCore:
 
     def get_oldest_timestamp(self):
         s = self.search
-        s.sort("-@timestamp")
-        return s.execute()[0]["@timestamp"]
+        s = s.sort("-@timestamp")
+        timestamp = s.execute()[0]["@timestamp"]
+        return timestamp
 
 
 def _print_result_log(logs, printer):
