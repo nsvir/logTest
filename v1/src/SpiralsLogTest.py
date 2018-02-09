@@ -19,7 +19,7 @@ class Application:
     def verify(self):
         for logFile in self.logFiles:
             try:
-                logFile.verify()
+                logFile.run()
             except AssertFailedException as e:
                 self.errors.append({"file": logFile.fileName, "args": e.args})
         self._printResult()

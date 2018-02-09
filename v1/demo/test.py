@@ -1,6 +1,6 @@
 import sys
 import SpiralsLogTest
-from SpiralsLogTest import LogFile, Application
+from SpiralsLogTest import LogFile, SpiralCore
 from tools.fancy import Log
 
 # Application
@@ -25,7 +25,7 @@ class ChatLogFile(LogFile):
 
 
 # Application defines the expected Actions from Behaviors
-class Chat(Application):
+class Chat(SpiralCore):
 
     def __init__(self, clientLog, serverLog):
         super().__init__()
@@ -67,7 +67,7 @@ def testSuccess():
     chat.sendToClient("DATA1")
     chat.sendToServer("DATA2")
     chat.disconnectClient()
-    chat.verify()
+    chat.run()
 
 def testFailure():
     chat = Chat("logs/clientFull.log", serverLog = "logs/serverError.log")
@@ -76,7 +76,7 @@ def testFailure():
     chat.sendToClient("DATA1")
     chat.sendToServer("DATA2")
     chat.disconnectClient()
-    chat.verify()
+    chat.run()
 
 
 if __name__ == "__main__":
