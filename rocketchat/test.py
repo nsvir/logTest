@@ -47,7 +47,7 @@ class NotificationAgent(LogAgent):
     def __init__(self, agent):
         self.waiting_time = None
         self.status_agent = agent
-        self.offset_limit = timedelta(seconds=5)
+        self.timeout = timedelta(seconds=5)
         self.waiting_push = False
 
     def get_expected_list(self):
@@ -56,7 +56,7 @@ class NotificationAgent(LogAgent):
     def sent_message(self, timestamp):
         if not self.status_agent.is_online:
             self.waiting_push = True
-            self.waiting_time = to_datetime(timestamp) + self.offset_limit
+            self.waiting_time = to_datetime(timestamp) + self.timeout
 
     def notify_match_expected(self, timestamp, log):
         if self.waiting_push is False:
